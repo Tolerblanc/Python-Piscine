@@ -45,6 +45,7 @@ if __name__ == "__main__":
 
 ## Ex 00
 > `ex00/load_csv.py`로 제출
+> 
 > `pandas` 또는 모든 데이터셋 조작 라이브러리 허용
 
 경로를 인자로 받아서 데이터셋의 차원을 출력하고 반환하는 함수를 작성하세요.
@@ -77,6 +78,7 @@ $>
 ## Ex 01
 
 > `ex01` 폴더 안에 `load_csv.py`, `aff_life.py`로 제출
+>
 > `matplotlib`, `seaborn` 또는 데이터 시각화를 위한 모든 라이브러리 허용
 
 이전 예제에서의 `load` 함수를 호출하여  `life_expectancy_years.csv` 를 로드하고, 당신의 캠퍼스의 지역 정보를 표시하는 프로그램을 만드세요.
@@ -87,6 +89,7 @@ $>
 ## Ex 02
 
 > `ex02` 폴더 안에 `load_csv.py`, `aff_pop.py`로 제출
+>
 > `matplotlib`, `seaborn` 또는 데이터 시각화를 위한 모든 라이브러리 허용
 
 1번 예제에서의 `load` 함수를 호출하여  `population_total.csv` 를 로드하고, 당신의 캠퍼스의 지역 정보와 특정 캠퍼스의 정보를 표시하는 프로그램을 만드세요.
@@ -98,6 +101,7 @@ $>
 ## Ex 03
 
 > `ex03` 폴더 안에 `load_csv.py`, `projection_life.py`로 제출
+>
 > `matplotlib`, `seaborn` 또는 데이터 시각화를 위한 모든 라이브러리 허용
 
 1번 예제에서의 `load` 함수를 호출하여 `income_per_person_gdppercapita_ppp_inflation_adjusted.csv` 와 `life_expectancy_years.csv`를 로드하고, 각 국가의 1900년 국민 총생산 대비 기대 수명을 표시하는 프로그램을 만드세요.
