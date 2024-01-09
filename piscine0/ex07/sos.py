@@ -2,6 +2,10 @@ import sys
 
 
 def main():
+    """
+    ex07 main function
+    convert the string to morse code
+    """
     if len(sys.argv) != 2:
         print("AssertionError: the arguments are bad")
         return

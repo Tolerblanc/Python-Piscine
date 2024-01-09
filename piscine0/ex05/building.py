@@ -3,7 +3,7 @@ import sys
 
 def count_characters(string: str) -> None:
     """
-    count uppercase letters, lowercase letters, punctuation marks, spaces and digits
+    count uppercase letters, lowercase letters, punctuation marks, spaces and digits # noqa: E501
 
     Args:
         @param `string`: str to count

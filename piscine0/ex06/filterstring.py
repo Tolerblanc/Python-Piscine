@@ -3,6 +3,10 @@ import sys
 
 
 def main():
+    """
+    ex06-2 main function
+    split the string by spaces and filter the words whose length is greater than N # noqa: E501
+    """
     if len(sys.argv) != 3:
         print("AssertionError: the arguments are bad")
         return
