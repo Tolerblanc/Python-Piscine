@@ -257,7 +257,7 @@ The text contains 171 characters:
 $>
 ```
 
-예상되는 출력은 다음과 같습니다. (캐리지 리턴은 공백으로 취급되며, EOF를 통해 입력을 종료합니다.)
+예상되는 출력은 다음과 같습니다. (캐리지 리턴은 공백으로 취급되며, 이를 고려하지 않으려면 EOF를 통해 입력을 종료합니다.)
 
 ```bash
 $>python building.py
@@ -423,6 +423,6 @@ $>
 ```python
 from ft_package import count_in_list
 
-print(count_int_list(["toto", "tata", "toto"], "toto")) # output: 2
-print(count_int_list(["toto", "tata", "toto"], "tutu")) # output: 0
+print(count_in_list(["toto", "tata", "toto"], "toto")) # output: 2
+print(count_in_list(["toto", "tata", "toto"], "tutu")) # output: 0
 ```
