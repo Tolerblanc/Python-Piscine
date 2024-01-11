@@ -4,6 +4,10 @@ from PIL import Image
 
 
 def main():
+    """
+    day01 ex04 main function
+    load image, crop and resize it, transpose it, then show it
+    """
     try:
         origin = ft_load("../../assets/animal.jpeg")
         zoomed = Image.fromarray(origin).convert("L")
