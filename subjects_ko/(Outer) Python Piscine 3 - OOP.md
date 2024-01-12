@@ -305,7 +305,7 @@ a = [5, 10, 2]
 b = [2, 4, 3]
 calculator.dotproduct(a, b)
 calculator.add_vec(a, b)
-calcluator.sous_vec(a, b)
+calculator.sous_vec(a, b)
 ```
 
 예상되는 출력은 다음과 같습니다. (docstring은 다를 수 있습니다.)
