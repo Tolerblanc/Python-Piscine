@@ -43,7 +43,9 @@ class Lannister(Character):
         """
         Constructor for Lannister class, inherits from Character
         """
-        super().__init__(first_name, is_alive)
+        # super().__init__(first_name, is_alive)
+        self.first_name = first_name
+        self.is_alive = is_alive
         self.family_name = "Lannister"
         self.eyes = "blue"
         self.hairs = "light"
