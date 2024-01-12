@@ -13,7 +13,8 @@ def main():
         print(f'The shape of image is: {origin.shape}')
         print(origin)
         zoomed = Image.fromarray(origin).convert("L")
-        zoomed = zoomed.crop((450, 100, 850, 500)).resize((400, 400))
+        zoomed = zoomed.crop((450, 100, 850, 500)).resize(
+            origin.shape[:2][::-1])
         zoomed.show()
         zoomed_array = np.array(zoomed)
         print(f'New shape after slicing: {zoomed_array.shape}')
