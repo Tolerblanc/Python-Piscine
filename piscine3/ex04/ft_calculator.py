@@ -1,16 +1,23 @@
 class calculator:
-    # your code here
-    # decorator
+    """
+    calculator docstring
+    """
+    @staticmethod
     def dotproduct(V1: list[float], V2: list[float]) -> None:
-        # your code here
-        pass
-    # decorator
+        """
 
+        """
+        print(f'Dot product is: {sum([a * b for a, b in list(zip(V1, V2))])}')
+
+    @staticmethod
     def add_vec(V1: list[float], V2: list[float]) -> None:
-        # your code here
-        pass
-    # decorator
+        """
+        """
+        print(f'Add Vector is: {[float(a + b) for a, b in list(zip(V1, V2))]}')
 
+    @staticmethod
     def sous_vec(V1: list[float], V2: list[float]) -> None:
-        # your code here
-        pass
+        """
+        """
+        print(
+            f'Sous Vector is: {[float(a - b) for a, b in list(zip(V1, V2))]}')
